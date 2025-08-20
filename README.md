@@ -55,10 +55,11 @@ Two SQL projects analysing Spotify's most streamed songs:
 ---
 
 ## Repository Structure
- 2024SpotifyStreamingAnalytics/
-├── 01_DataQualityAssessment.sql    # Data cleaning & metrics
-├── 02_CrossPlatformAnalysis.sql    # Platform comparison
-└── README.md                       # This overview
+
+    2024SpotifyStreamingAnalytics/
+    ├── 01_DataQualityAssessment.sql    # Data cleaning & metrics
+    ├── 02_CrossPlatformAnalysis.sql    # Platform comparison
+    └── README.md                       # This overview
 
 ---
 
