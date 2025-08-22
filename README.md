@@ -1,5 +1,9 @@
 # Spotify Streaming Analytics Portfolio
 **SQL analysis of 4,600+ songs to solve real business problems**
+
+![Streaming Evolution Analysis](Dashboard_Screenshot.png)
+*37 years of music industry evolution showing market saturation trends*
+
 ---
 ## What I Built
 Three SQL projects analysing Spotify's most streamed songs:
