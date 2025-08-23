@@ -35,9 +35,9 @@ UNION ALL
 
 SELECT 'Fully Usable Rows', COUNT(*)
 FROM STC
-WHERE Track NOT LIKE '%ý%'
-	AND Artist NOT LIKE '%ý%'
-	AND AlbumName NOT LIKE '%ý%'
+WHERE Track NOT LIKE '%Ã½%'
+	AND Artist NOT LIKE '%Ã½%'
+	AND AlbumName NOT LIKE '%Ã½%'
 	AND SpotifyStreams IS NOT NULL
 
 UNION ALL
@@ -47,9 +47,9 @@ UNION ALL
 
 SELECT 'Unusable Rows', COUNT(*)
 FROM STC
-WHERE Track Like '%ý%'
-	OR Artist LIKE '%ý%'
-	OR AlbumName LIKE '%ý%'
+WHERE Track Like '%Ã½%'
+	OR Artist LIKE '%Ã½%'
+	OR AlbumName LIKE '%Ã½%'
 	OR SpotifyStreams IS NULL;
 
 -- Purpose of Query = To assess how much data is fully usable for a confident and meaningful analysis
@@ -74,9 +74,9 @@ ORDER BY TrackID;
 SELECT TOP 5 
     TrackID, Track, Artist, AlbumName, SpotifyStreams, 'Corrupted Text' as Issue
 FROM STC 
-WHERE Track LIKE '%ý%' 
-   OR Artist LIKE '%ý%'
-   OR AlbumName LIKE '%ý%'
+WHERE Track LIKE '%Ã½%' 
+   OR Artist LIKE '%Ã½%'
+   OR AlbumName LIKE '%Ã½%'
 ORDER BY TrackID;
 
 -- EXAMPLES OF CLEAN DATA (Usable Data)
@@ -84,9 +84,9 @@ ORDER BY TrackID;
 SELECT TOP 5
     TrackID, Track, Artist, AlbumName, SpotifyStreams, 'Clean Data' as Status
 FROM STC 
-WHERE Track NOT LIKE '%ý%' 
-  AND Artist NOT LIKE '%ý%'
-  AND AlbumName NOT LIKE '%ý%'
+WHERE Track NOT LIKE '%Ã½%' 
+  AND Artist NOT LIKE '%Ã½%'
+  AND AlbumName NOT LIKE '%Ã½%'
   AND SpotifyStreams IS NOT NULL
 ORDER BY SpotifyStreams DESC;
 
