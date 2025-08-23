@@ -30,9 +30,9 @@ Key Skills:
 CREATE VIEW vw_CPSTC AS
 SELECT *
 FROM STC
-WHERE Track NOT LIKE '%ý%'                    -- Clean track names
-    AND Artist NOT LIKE '%ý%'                 -- Clean artist names  
-    AND (AlbumName NOT LIKE '%ý%' OR AlbumName IS NULL)  -- Clean or missing album names (acceptable as row of data still existent as track)
+WHERE Track NOT LIKE '%Ã½%'                    -- Clean track names
+    AND Artist NOT LIKE '%Ã½%'                 -- Clean artist names  
+    AND (AlbumName NOT LIKE '%Ã½%' OR AlbumName IS NULL)  -- Clean or missing album names (acceptable as row of data still existent as track)
     AND SpotifyStreams IS NOT NULL            -- Must have Spotify data
     AND YoutubeViews IS NOT NULL              -- Must have YouTube data
     AND TiktokViews IS NOT NULL;              -- Must have TikTok data
@@ -84,14 +84,14 @@ YoutubeViews    | 431,618,235 | 16,322,756,555 | 3,463
 MAIN FINDINGS:
 
 PLATFORM PERFORMANCE:
-• TikTok dominates with 1.12B average views (2.6x higher than YouTube)
-• Spotify provides steady 513M average streams  
-• YouTube shows 432M average views
+â€¢ TikTok dominates with 1.12B average views (2.6x higher than YouTube)
+â€¢ Spotify provides steady 513M average streams  
+â€¢ YouTube shows 432M average views
 
 VIRAL POTENTIAL:
-• TikTok: 233B max views (best viral reach)
-• YouTube: 16.3B max views (strong video potential)
-• Spotify: 4.3B max streams (consistent growth)
+â€¢ TikTok: 233B max views (best viral reach)
+â€¢ YouTube: 16.3B max views (strong video potential)
+â€¢ Spotify: 4.3B max streams (consistent growth)
 
 RECOMMENDATIONS FOR FUTURE STRATEGY:
 
@@ -100,9 +100,9 @@ Established Artists:    Multi-platform approach factoring in and utilising the s
 Strategy for content:   TikTok (viral content) | Spotify (full songs/actual product) | YouTube (videos and shorts)
 
 INVESTMENT RISK ASSESSMENT:
-• TikTok: High risk, massive reward potential
-• Spotify: Low risk, reliable steady income
-• YouTube: Medium risk
+â€¢ TikTok: High risk, massive reward potential
+â€¢ Spotify: Low risk, reliable steady income
+â€¢ YouTube: Medium risk
 
 =============================================================================
 */
