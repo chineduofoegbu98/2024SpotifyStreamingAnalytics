@@ -1,7 +1,7 @@
 # Spotify Streaming Analytics Portfolio
 **SQL analysis of 4,600+ songs to solve real business problems**
 
-![Streaming Evolution Analysis](PowerBiDashboard/Screenshots/1 Spotify Data Analysis Dashboard.png)
+![Streaming Evolution Analysis](PowerBiDashboard/Screenshots/1%20Spotify%20Data%20Analysis%20Dashboard.png)
 *Professional Power BI dashboard showing 37 years of music industry evolution and market saturation trends*
 
 ---
