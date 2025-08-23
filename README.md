@@ -1,7 +1,7 @@
 # Spotify Streaming Analytics Portfolio
 **SQL analysis of 4,600+ songs to solve real business problems**
 
-![Streaming Evolution Analysis] (PowerBiDashboard/Screenshots/1 Spotify Data Analysis Dashboard.png)
+![Streaming Evolution Analysis](PowerBiDashboard/Screenshots/1 Spotify Data Analysis Dashboard.png)
 *Professional Power BI dashboard showing 37 years of music industry evolution and market saturation trends*
 
 ---
@@ -44,16 +44,16 @@ Four projects analysing Spotify's most streamed songs:
 ---
 ## Interactive Power BI Dashboard
 
-![Dashboard Overview](03-powerbi-dashboard/screenshots/1 Spotify Data Analysis Dashboard.png)
+![Dashboard Overview](PowerBiDashboard/Screenshots/1 Spotify Data Analysis Dashboard.png)
 *Professional dashboard with interactive year filtering and multi-page navigation*
 
-![Cross Platform Analysis](03-powerbi-dashboard/screenshots/2 Cross Platform Performance Analysis.png)
+![Cross Platform Analysis](PowerBiDashboard/Screenshots/2 Cross Platform Performance Analysis.png)
 *Strategic platform comparison with key insights for artist decision-making*
 
-![Streaming Evolution](03-powerbi-dashboard/screenshots/3 Streaming Performance Evolution Analysis.png)
+![Streaming Evolution](PowerBiDashboard/Screenshots/3 Streaming Performance Evolution Analysis.png)
 *Historical trend analysis showing market saturation and quality vs quantity dynamics*
 
-![Data Tables](03-powerbi-dashboard/screenshots/4 Data Tables.png)
+![Data Tables](PowerBiDashboard/Screenshots/4 Data Tables.png)
 *Detailed data tables with strategic recommendations derived from analysis*
 
 **Power BI Features:**
@@ -88,22 +88,19 @@ Four projects analysing Spotify's most streamed songs:
 ---
 ## Repository Structure
     2024SpotifyStreamingAnalytics/
-    ├── 01-data/                                            # Raw datasets
-    ├── 02-sql-analysis/
-    │   ├── 01_DataQualityAssessment.sql                    # Data cleaning & metrics
-    │   ├── 02_CrossPlatformAnalysis.sql                    # Platform comparison
-    │   └── 03_StreamingEvolution.sql                       # Market trend analysis
-    ├── 03-powerbi-dashboard/
+    ├── 01_DataQualityAssessment.sql                        # Data cleaning & metrics
+    ├── 02_CrossPlatformAnalysis.sql                        # Platform comparison
+    ├── 03_StreamingEvolution.sql                           # Market trend analysis
+    ├── Dashboard_Screenshot.png                            # Excel visualization
+    ├── PowerBiDashboard/
     │   ├── 2024_Spotify_Interactive_Dashboard.pbix         # Full Power BI dashboard
-    │   └── screenshots/
+    │   └── Screenshots/
     │       ├── 1 Spotify Data Analysis Dashboard.png       # Dashboard overview
     │       ├── 2 Cross Platform Performance Analysis.png   # Platform comparison
     │       ├── 3 Streaming Performance Evolution Analysis.png # Evolution analysis
     │       └── 4 Data Tables.png                           # Data tables & recommendations
-    ├── 04-excel-dashboard/
-    │   ├── Spotify_Dashboard.xlsx                          # Interactive Excel dashboard
-    │   └── Dashboard_Screenshot.png                        # Excel visualization
-    └── README.md                                           # This overview
+    ├── README.md                                           # This overview
+    └── Spotify_Dashboard.xlsx                              # Interactive Excel dashboard
 
 ---
 ## Methodology
