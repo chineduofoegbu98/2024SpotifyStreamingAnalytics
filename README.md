@@ -44,16 +44,16 @@ Four projects analysing Spotify's most streamed songs:
 ---
 ## Interactive Power BI Dashboard
 
-![Dashboard Overview](PowerBiDashboard/Screenshots/1 Spotify Data Analysis Dashboard.png)
+![Dashboard Overview](PowerBiDashboard/Screenshots/1%20Spotify%20Data%20Analysis%20Dashboard.png)
 *Professional dashboard with interactive year filtering and multi-page navigation*
 
-![Cross Platform Analysis](PowerBiDashboard/Screenshots/2 Cross Platform Performance Analysis.png)
+![Cross Platform Analysis](PowerBiDashboard/Screenshots/2%20Cross%20Platform%20Performance%20Analysis.png)
 *Strategic platform comparison with key insights for artist decision-making*
 
-![Streaming Evolution](PowerBiDashboard/Screenshots/3 Streaming Performance Evolution Analysis.png)
+![Streaming Evolution](PowerBiDashboard/Screenshots/3%20Streaming%20Performance%20Evolution%20Analysis.png)
 *Historical trend analysis showing market saturation and quality vs quantity dynamics*
 
-![Data Tables](PowerBiDashboard/Screenshots/4 Data Tables.png)
+![Data Tables](PowerBiDashboard/Screenshots/4%20Data%20Tables.png)
 *Detailed data tables with strategic recommendations derived from analysis*
 
 **Power BI Features:**
