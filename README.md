@@ -69,7 +69,9 @@ Five projects analysing Spotify's most streamed songs:
 ---
 ## Business Impact
 **For New Artists:** Start with TikTok → Convert to Spotify → Support with YouTube
+
 **For Established Artists:** Multi-platform approach essential
+
 **Content Strategy:** TikTok (viral content) | Spotify (full tracks) | YouTube (videos)
 
 **Market Strategy Insights:**
