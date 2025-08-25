@@ -120,6 +120,40 @@ Four projects analysing Spotify's most streamed songs:
 - Clear communication of complex findings
 
 ---
+
+## Spotify Real-Time Popularity Tracker
+**Python API integration extending the historical analysis with live monitoring capabilities**
+
+**[View Real-Time Tracker →](RealTimeTracker/)**
+
+Whilst the main analysis demonstrates historical trend identification across 37 years of data, this complementary project showcases professional API integration for ongoing popularity monitoring.
+
+### Technical Extension
+**Historical Foundation**: SQL analysis of 4,600+ tracks with professional Power BI dashboards  
+**Real-Time Layer**: Python-based live API integration for current popularity tracking  
+**Combined Impact**: Complete data pipeline from historical context to real-time business intelligence
+
+### Key Capabilities
+- **Live Data Integration**: Professional Spotify Web API implementation with authentication
+- **Trend Calculation**: Real-time comparison with historical baselines and statistical analysis
+- **Production Error Handling**: Robust fallback mechanisms ensuring reliability for ongoing monitoring
+- **Automated Reporting**: Executive-level insights generated without manual intervention
+- **Dynamic Visualisation**: Professional charts that update with fresh data streams
+
+### Business Value
+Demonstrates ability to:
+- **Integrate with external APIs** professionally and securely using industry standards
+- **Bridge historical analysis** with real-time monitoring systems for comprehensive insights
+- **Implement production-ready code** with proper error handling and resilience patterns
+- **Generate actionable insights** from live data streams for immediate business impact
+
+### Skills Showcased
+- **API Authentication**: Secure credential management and professional token handling
+- **Data Pipeline Engineering**: Real-time extraction, transformation, and analysis workflows
+- **Error Resilience**: Professional exception handling and fallback strategies for production use
+- **Business Intelligence**: Strategic insights derived from live data streams and trend analysis
+- **Code Documentation**: Clear, professional commenting and modular structure
+---
 ## Contact
 **Chinedu Ofoegbu**
 - **Email**: chineduofoegbu98@gmail.com
