@@ -1,5 +1,5 @@
 # Spotify Streaming Analytics Portfolio
-**SQL, Python and PowerBI analysis of 4,600+ songs to solve real business problems**
+**SQL, Python and Power BI analysis of 4,600+ songs to solve real business problems**
 
 ![Dashboard Overview](03%20-%20PowerBiDashboard/Screenshots/1%20Spotify%20Data%20Analysis%20Dashboard.png)
 *37 years of music industry evolution showing market saturation trends*
@@ -39,10 +39,10 @@ Five interconnected projects analysing Spotify's most streamed songs:
 - **Solution**: Professional multi-page Power BI dashboard with interactive filtering and Spotify branding
 - **Result**: Corporate-standard business intelligence tool with integrated strategic recommendations
 
-### 5. Python API Hit Prediction System
-- **Problem**: Static historical analysis cannot predict future hit potential accurately
-- **Solution**: Built automated system combining historical data with Spotify's real-time audio analysis
-- **Result**: Hit prediction algorithm achieving 85% accuracy with production-ready error handling
+### 5. Real-Time Popularity Tracker
+- **Problem**: Understanding live music trends and learning API integration fundamentals
+- **Solution**: Built Python program connecting to Spotify API for real-time popularity monitoring
+- **Result**: Functional real-time tracking system demonstrating API authentication, data processing, and visualisation
 
 ---
 
@@ -64,10 +64,11 @@ Five interconnected projects analysing Spotify's most streamed songs:
 - **Average streams declined 80%** from peak era (2B+ to 183M average)
 - **2019-2022** dominate total streaming volume despite individual song performance decline
 
-**Hit Prediction Model Results:**
-- **85% prediction accuracy** combining streaming performance with audio features
-- **Audio characteristics** contribute 30% to overall hit potential scoring
-- **Cross-platform performance** indicates 70% higher success probability
+**Real-Time Tracking Results:**
+- **Most songs tracked** showed popularity scores between 60-85
+- **API response times** averaged under 1 second for reliable real-time monitoring
+- **Popularity fluctuations** observed across different tracking periods
+- **Ed Sheeran tracks** demonstrated consistently strong performance during analysis
 
 ---
 
@@ -136,14 +137,14 @@ Five interconnected projects analysing Spotify's most streamed songs:
 - **Professional data storytelling** combining technical analysis with strategic communication
 
 **Programming & API Integration:**
-- **Python development** for data analysis, API integration, and predictive modelling
+- **Python development** for data analysis, API integration, and real-time monitoring
 - **Jupyter notebook proficiency** with professional documentation and code structure
 - **Spotify Web API integration** including authentication, rate limiting, and error handling
 - **Pandas data manipulation** for complex data processing and transformation workflows
 
 **Statistical Analysis & Modelling:**
 - **Time-series analysis** for trend identification across 37-year dataset
-- **Predictive modelling** combining multiple data sources for hit potential scoring
+- **Real-time data processing** with API-driven popularity tracking
 - **Cross-platform performance analysis** with statistical significance testing
 - **Business intelligence reporting** with clear, actionable strategic recommendations
 
@@ -185,16 +186,17 @@ Five interconnected projects analysing Spotify's most streamed songs:
   - Market saturation analysis providing clear insights for strategic planning
 
 ### **[04 - RealTimeTracker](04%20-%20RealTimeTracker/)**
-**Python API integration for live music analytics and hit prediction**
-- Complete Jupyter notebook featuring professional documentation and modular code structure
-- Spotify Web API integration incorporating robust authentication and comprehensive error handling
-- Custom hit prediction algorithm combining historical streaming data with real-time audio features
-- Production-ready analysis pipeline designed for scalable implementation
+**Python API integration for real-time music popularity monitoring**
+- Simple Python program demonstrating first-time API usage and real-time data processing
+- Spotify Web API connection with authentication setup and basic error handling
+- Real-time popularity tracking system comparing current data with historical baselines
+- Learning-focused project showcasing API fundamentals and data visualisation basics
 - **Technical Implementation:**
-  - Professional API authentication with secure token management and rate limiting
-  - Predictive modelling system achieving 85% accuracy in hit potential assessment
-  - Automated report generation with dynamic data visualisation capabilities
-  - Comprehensive error handling and logging suitable for production deployment
+  - **API Authentication**: Spotify Developer account setup with Client ID and Secret management
+  - **Data Collection**: Real-time popularity scores with sub-1-second response times
+  - **Trend Analysis**: Comparison functionality identifying popularity changes over time
+  - **Visualisation**: Basic charts using matplotlib for clear data presentation
+  - **Learning Outcomes**: First API project demonstrating progression from CSV analysis to live data
 
 ### **[05 - ExcelDashboard](05%20-%20ExcelDashboard/)**
 **Traditional spreadsheet analysis and comprehensive visualisation**
@@ -210,7 +212,7 @@ Five interconnected projects analysing Spotify's most streamed songs:
 
 ---
 
-**Total Project Scope:** 4,600+ tracks analysed across 37 years (1987-2024) using multiple analytical approaches and professional tools, demonstrating comprehensive data science workflow from database management through to predictive modelling and strategic business intelligence.
+**Total Project Scope:** 4,600+ tracks analysed across 37 years (1987-2024) using multiple analytical approaches and professional tools, demonstrating comprehensive data science workflow from database management through to real-time API integration and strategic business intelligence.
 
 ---
 
@@ -225,12 +227,12 @@ Five interconnected projects analysing Spotify's most streamed songs:
 **Analysis Framework:**
 - **Descriptive Analytics**: Historical pattern identification and comprehensive trend analysis
 - **Diagnostic Analytics**: Root cause analysis of market saturation factors and performance drivers
-- **Predictive Analytics**: Hit potential scoring using statistical modelling principles
+- **Real-time Analytics**: Live popularity monitoring with API-driven data collection
 - **Prescriptive Analytics**: Strategic recommendations with quantified business impact
 
 **Quality Assurance:**
 - **Data Validation**: Multi-stage cleaning and validation processes ensuring analysis reliability
-- **Cross-Validation**: Model accuracy verification using holdout datasets and statistical testing
+- **API Integration**: Robust error handling and rate limiting for reliable real-time data collection
 - **Business Logic Review**: Industry context validation ensuring practical relevance of insights
 
 ---
@@ -242,8 +244,8 @@ Five interconnected projects analysing Spotify's most streamed songs:
 **Technical Competence:**
 - Advanced SQL capabilities for complex data analysis and database management
 - Professional business intelligence dashboard development with corporate presentation standards
-- API integration expertise with production-ready error handling and security considerations
-- Python data science workflow implementation with statistical modelling capabilities
+- API integration expertise with authentication and real-time data processing
+- Python programming fundamentals with practical application to business problems
 
 **Business Acumen:**
 - Industry-specific knowledge combined with strategic thinking and market analysis
@@ -255,13 +257,13 @@ Five interconnected projects analysing Spotify's most streamed songs:
 - Complete project lifecycle management from conception through to delivery
 - Comprehensive documentation and knowledge transfer capabilities ensuring project sustainability
 - Cross-functional collaboration readiness with technical and business stakeholders
-- Continuous learning demonstrated through multiple technology implementations
+- Continuous learning demonstrated through progression from basic to advanced implementations
 
 **Strategic Value:**
-- End-to-end analytical capability spanning database management to predictive modelling
+- End-to-end analytical capability spanning database management to real-time monitoring
 - Multi-tool proficiency demonstrating adaptability and comprehensive skill development
 - Business-focused outcomes with clear strategic recommendations and quantified impact
-- Scalable methodologies suitable for expansion and real-world implementation
+- Learning-oriented approach showing growth mindset and development progression
 
 ---
 
@@ -286,7 +288,7 @@ Five interconnected projects analysing Spotify's most streamed songs:
 **Prerequisites:**
 - SQL Server Management Studio (for database analysis and query execution)
 - Power BI Desktop (for interactive dashboard exploration and analysis)
-- Python 3.8+ with Jupyter Lab (for API analysis and predictive modelling)
+- Python 3.8+ with Jupyter Lab (for API analysis and real-time monitoring)
 - Spotify Developer Account (free registration required for API access)
 
 **Quick Start Guide:**
@@ -301,10 +303,10 @@ Five interconnected projects analysing Spotify's most streamed songs:
    - Open using Power BI Desktop for full interactive experience
    - Explore multi-page navigation and dynamic filtering capabilities
 
-3. **Execute Python Analysis**
+3. **Execute Real-Time Tracking**
    - Navigate to `/04 - RealTimeTracker/` directory
-   - Install required packages: `pip install -r requirements.txt`
-   - Launch Jupyter notebook for API integration and hit prediction analysis
+   - Install required packages: `pip install requests pandas matplotlib`
+   - Launch `SpotifyLiveTracker.ipynb` for live popularity monitoring
 
 ---
 
@@ -317,4 +319,4 @@ Five interconnected projects analysing Spotify's most streamed songs:
 
 ---
 
-*This portfolio represents comprehensive analytical work combining database management, business intelligence, and predictive modelling to generate actionable insights for the music streaming industry. All methodologies, code, and analysis approaches are available for review, collaboration, and professional discussion.*
+*This portfolio represents comprehensive analytical work combining database management, business intelligence, and real-time API integration to generate actionable insights for the music streaming industry. All methodologies, code, and analysis approaches are available for review, collaboration, and professional discussion.*
