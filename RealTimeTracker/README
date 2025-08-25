@@ -1,0 +1,90 @@
+Spotify Real-Time Popularity Tracker
+Python project to check how popular songs are right now
+
+What I Made
+I built a simple Python program that connects to Spotify and checks how popular songs are in real-time. This was my first time using APIs.
+
+The 4 Parts of My Project:
+
+1. Connecting to Spotify API
+- Problem: I needed to get live data from Spotify
+- What I did: Set up API connection with my Spotify developer account
+- What I learned: How to authenticate with APIs and get data
+
+2. Getting Song Popularity Data
+- Problem: I wanted to see current popularity scores for songs
+- What I did: Used Python to ask Spotify for popularity numbers
+- What I learned: How to make API requests and handle responses
+
+3. Comparing Data Over Time
+- Problem: I wanted to see if songs were getting more or less popular
+- What I did: Compared new data with old data to find changes
+- What I learned: How to calculate trends and changes in data
+
+4. Making Charts
+- Problem: Numbers are boring, I wanted to see visual results
+- What I did: Used matplotlib to make simple charts
+- What I learned: Basic data visualization in Python
+
+What I Found Out
+When I ran my program, here's what happened:
+- Most songs in my test had popularity scores between 60-85
+- Some songs went up in popularity, others went down
+- The API was pretty fast, usually responded in less than 1 second
+- Ed Sheeran songs seemed to be doing well when I checked
+
+Technical Stuff I Used
+- Python (programming language)
+- Spotify Web API (to get the data)
+- pandas (for working with data)
+- matplotlib (for making charts)
+- Jupyter notebook (where I wrote my code)
+
+How to Use This Project
+
+What You Need:
+- Python installed on your computer
+- A free Spotify account
+- Internet connection
+
+Setup Steps:
+1. Get a Spotify Developer account (it's free)
+2. Create a new app and get your Client ID and Client Secret
+3. Install the Python packages: pip install requests pandas matplotlib
+4. Download my notebook file
+5. Put your Client ID and Client Secret in the code where it says to
+6. Run the code!
+
+Files in My Project:
+- SpotifyLiveTracker.ipynb (the main code file)
+- requirements.txt (list of Python packages needed)
+- README.txt (this explanation file)
+
+What I Learned
+This was a great learning project because I got to:
+- Use a real API for the first time
+- Work with live data instead of just CSV files
+- Make my own charts and visualizations
+- Handle errors when things went wrong
+- Structure a complete project from start to finish
+
+Problems I Ran Into:
+- Getting the API authentication working took me a while
+- Sometimes the API would return errors and I had to figure out why
+- Making nice-looking charts was harder than I expected
+- Had to learn about rate limits (not asking for too much data too fast)
+
+Why This Project Is Useful
+- Shows I can work with APIs (important for data jobs)
+- Demonstrates real-time data processing
+- Good example of a complete project with documentation
+- Could be expanded for other types of analysis
+
+Future Improvements:
+- Add more songs to track
+- Save data to a database instead of just looking at it once
+- Make a web interface instead of just a notebook
+- Add alerts when songs hit certain popularity levels
+- Track more metrics besides just popularity
+
+This was my second Python project after learning the basics. It taught me a lot about working with real data from the internet instead of just practice datasets and how I can incorporate AI as a teaching tool in helping me debug and correct my code.
