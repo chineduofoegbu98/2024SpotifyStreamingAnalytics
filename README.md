@@ -6,7 +6,7 @@
 
 ---
 ## What I Built
-Four projects analysing Spotify's most streamed songs:
+Five projects analysing Spotify's most streamed songs:
 ### 1. Data Quality Assessment
 - **Problem**: 4% of data had corrupted text fields
 - **Solution**: Built quality metrics and cleaning process
@@ -23,7 +23,10 @@ Four projects analysing Spotify's most streamed songs:
 - **Problem**: Need executive-level presentation of insights
 - **Solution**: Professional multi-page Power BI dashboard with interactive filtering
 - **Result**: Corporate-standard business intelligence tool with strategic recommendations
-
+### 5. Real-Time Popularity Tracker
+- **Problem**: Historical analysis needs live monitoring capabilities
+- **Solution**: Python API integration for real-time Spotify popularity tracking
+- **Result**: Production-ready system monitoring track performance with automated reporting
 ---
 ## Main Findings
 **Platform Rankings (Average Engagement):**
